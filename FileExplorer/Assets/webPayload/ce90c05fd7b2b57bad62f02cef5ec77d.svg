@@ -1,0 +1,18 @@
+<svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M15.8 17H3.2C2.5 17 2 16.5 2 15.8V3.2C2 2.5 2.5 2 3.2 2H15.9C16.5 2 17 2.5 17 3.2V15.9C17 16.5 16.5 17 15.8 17Z" fill="#28AFEA"/>
+<path d="M9 2H6V3H9V2Z" fill="#0C59A4"/>
+<path d="M13 2H10V3H13V2Z" fill="#0C59A4"/>
+<path d="M9 16H6V17H9V16Z" fill="#0C59A4"/>
+<path d="M13 16H10V17H13V16Z" fill="#0C59A4"/>
+<path d="M3 14H2V16C2 16.6 2.4 17 3 17H5V16H3V14Z" fill="#0C59A4"/>
+<path d="M3 10H2V13H3V10Z" fill="#0C59A4"/>
+<path d="M3 6H2V9H3V6Z" fill="#0C59A4"/>
+<path d="M3 2C2.4 2 2 2.4 2 3V5H3V3H5V2H3Z" fill="#0C59A4"/>
+<path d="M16 16H14V17H16C16.6 17 17 16.6 17 16V14H16V16Z" fill="#0C59A4"/>
+<path d="M17 10H16V13H17V10Z" fill="#0C59A4"/>
+<path d="M17 6H16V9H17V6Z" fill="#0C59A4"/>
+<path d="M14 2V3H16V5H17V3C17 2.4 16.6 2 16 2H14Z" fill="#0C59A4"/>
+<path d="M14 14.5H5C4.7 14.5 4.5 14.3 4.5 14V5C4.5 4.7 4.7 4.5 5 4.5H14C14.3 4.5 14.5 4.7 14.5 5V14C14.5 14.3 14.3 14.5 14 14.5Z" fill="#FAFAFA" stroke="#444444" stroke-miterlimit="10"/>
+<path d="M9.5 4.5V14.5" stroke="#444444" stroke-miterlimit="10"/>
+<path d="M14.5 9.5H4.5" stroke="#444444" stroke-miterlimit="10"/>
+</svg>

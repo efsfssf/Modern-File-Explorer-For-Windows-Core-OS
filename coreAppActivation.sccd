@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CustomCapabilityDescriptor
+  xmlns="http://schemas.microsoft.com/appx/2016/sccd"
+  xmlns:s="http://schemas.microsoft.com/appx/2016/sccd">
+  <CustomCapabilities>
+    <CustomCapability Name="Microsoft.coreAppActivation_8wekyb3d8bbwe" />
+  </CustomCapabilities>
+  <AuthorizedEntities>
+    <AuthorizedEntity AppPackageFamilyName="MicrosoftWindows.Client_cw5n1h2txyewy" CertificateSignatureHash="a434607c4c4db7f4ae59d269fe0bac49065ab4c4c1a7f090b9f29618d10421ad" />
+    <AuthorizedEntity AppPackageFamilyName="MicrosoftWindows.Client_cw5n1h2txyewy" CertificateSignatureHash="54aca06de50aa6a15bb784efababb4ca76c897212442036876ce28d044247b9c" />
+    <AuthorizedEntity AppPackageFamilyName="MicrosoftWindows.Client.Test_cw5n1h2txyewy" CertificateSignatureHash="a434607c4c4db7f4ae59d269fe0bac49065ab4c4c1a7f090b9f29618d10421ad" />
+    <AuthorizedEntity AppPackageFamilyName="MicrosoftWindows.Client.Test_cw5n1h2txyewy" CertificateSignatureHash="54aca06de50aa6a15bb784efababb4ca76c897212442036876ce28d044247b9c" />
+    <AuthorizedEntity AppPackageFamilyName="MicrosoftWindows.WCOSCDG.Proto_cw5n1h2txyewy" CertificateSignatureHash="a434607c4c4db7f4ae59d269fe0bac49065ab4c4c1a7f090b9f29618d10421ad" />
+    <AuthorizedEntity AppPackageFamilyName="MicrosoftWindows.WCOSCDG.Proto_cw5n1h2txyewy" CertificateSignatureHash="54aca06de50aa6a15bb784efababb4ca76c897212442036876ce28d044247b9c" />
+    <AuthorizedEntity AppPackageFamilyName="MicrosoftWindows.FileExplorer_cw5n1h2txyewy" CertificateSignatureHash="a434607c4c4db7f4ae59d269fe0bac49065ab4c4c1a7f090b9f29618d10421ad" />
+    <AuthorizedEntity AppPackageFamilyName="MicrosoftWindows.FileExplorer_cw5n1h2txyewy" CertificateSignatureHash="54aca06de50aa6a15bb784efababb4ca76c897212442036876ce28d044247b9c" />
+    <AuthorizedEntity AppPackageFamilyName="MicrosoftWindows.FileExplorer.Proto_cw5n1h2txyewy" CertificateSignatureHash="a434607c4c4db7f4ae59d269fe0bac49065ab4c4c1a7f090b9f29618d10421ad" />
+    <AuthorizedEntity AppPackageFamilyName="MicrosoftWindows.FileExplorer.Proto_cw5n1h2txyewy" CertificateSignatureHash="54aca06de50aa6a15bb784efababb4ca76c897212442036876ce28d044247b9c" />
+  </AuthorizedEntities>
+  <Catalog>0000</Catalog>
+</CustomCapabilityDescriptor>

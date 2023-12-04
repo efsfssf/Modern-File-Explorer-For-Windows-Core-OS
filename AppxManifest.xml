@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10" xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest" xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10" xmlns:uap3="http://schemas.microsoft.com/appx/manifest/uap/windows10/3" xmlns:uap4="http://schemas.microsoft.com/appx/manifest/uap/windows10/4" xmlns:uap6="http://schemas.microsoft.com/appx/manifest/uap/windows10/6" xmlns:uap10="http://schemas.microsoft.com/appx/manifest/uap/windows10/10" xmlns:wincap="http://schemas.microsoft.com/appx/manifest/foundation/windows10/windowscapabilities" IgnorableNamespaces="mp uap uap3 uap4 uap6 uap10 wincap">
+	<Identity Name="MicrosoftWindows.FileExplorer.Proto" Publisher="CN=Microsoft Windows, O=Microsoft Corporation, L=Redmond, S=Washington, C=US" Version="120.5101.0.0" ProcessorArchitecture="x64"/>
+	<mp:PhoneIdentity PhoneProductId="3898fac3-1f84-4040-83ce-ef30739c0a64" PhonePublisherId="6145b212-a274-4517-8abe-1e015f21ff03"/>
+	<Properties>
+		<DisplayName>Modern File Explorer</DisplayName>
+		<PublisherDisplayName>Microsoft Windows</PublisherDisplayName>
+		<Logo>Assets\StoreLogo.png</Logo>
+	</Properties>
+	<Dependencies>
+	    <TargetDeviceFamily Name="Windows.Universal" MinVersion="10.0.17133.0" MaxVersionTested="10.0.17763.0"/>
+		<TargetDeviceFamily Name="Windows.Core" MinVersion="10.0.18990.0" MaxVersionTested="10.0.32767.0"/>
+		<PackageDependency Name="Microsoft.VCLibs.140.00" MinVersion="14.0.26706.0" Publisher="CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US"/>
+	</Dependencies>
+	<Resources>
+		<Resource Language="en-US"/>
+		<Resource Language="af-ZA"/>
+		<Resource Language="am-ET"/>
+		<Resource Language="ar-SA"/>
+		<Resource Language="as-IN"/>
+		<Resource Language="az-Latn-AZ"/>
+		<Resource Language="be-BY"/>
+		<Resource Language="bg-BG"/>
+		<Resource Language="bn-BD"/>
+		<Resource Language="bn-IN"/>
+		<Resource Language="bs-Latn-BA"/>
+		<Resource Language="ca-ES"/>
+		<Resource Language="ca-Es-VALENCIA"/>
+		<Resource Language="chr-Cher-US"/>
+		<Resource Language="cs-CZ"/>
+		<Resource Language="cy-GB"/>
+		<Resource Language="da-DK"/>
+		<Resource Language="de-DE"/>
+		<Resource Language="el-GR"/>
+		<Resource Language="en-GB"/>
+		<Resource Language="es-ES"/>
+		<Resource Language="es-MX"/>
+		<Resource Language="et-EE"/>
+		<Resource Language="eu-ES"/>
+		<Resource Language="fa-IR"/>
+		<Resource Language="fi-FI"/>
+		<Resource Language="fil-PH"/>
+		<Resource Language="fr-CA"/>
+		<Resource Language="fr-FR"/>
+		<Resource Language="ga-IE"/>
+		<Resource Language="gd-gb"/>
+		<Resource Language="gl-ES"/>
+		<Resource Language="gu-IN"/>
+		<Resource Language="ha-Latn-NG"/>
+		<Resource Language="he-IL"/>
+		<Resource Language="hi-IN"/>
+		<Resource Language="hr-HR"/>
+		<Resource Language="hu-HU"/>
+		<Resource Language="hy-AM"/>
+		<Resource Language="id-ID"/>
+		<Resource Language="ig-NG"/>
+		<Resource Language="is-IS"/>
+		<Resource Language="it-IT"/>
+		<Resource Language="ja-JP"/>
+		<Resource Language="ka-GE"/>
+		<Resource Language="kk-KZ"/>
+		<Resource Language="km-KH"/>
+		<Resource Language="kn-IN"/>
+		<Resource Language="ko-KR"/>
+		<Resource Language="kok-IN"/>
+		<Resource Language="ku-Arab-IQ"/>
+		<Resource Language="ky-KG"/>
+		<Resource Language="lb-LU"/>
+		<Resource Language="lo-LA"/>
+		<Resource Language="lt-LT"/>
+		<Resource Language="lv-LV"/>
+		<Resource Language="mi-NZ"/>
+		<Resource Language="mk-MK"/>
+		<Resource Language="ml-IN"/>
+		<Resource Language="mn-MN"/>
+		<Resource Language="mr-IN"/>
+		<Resource Language="ms-MY"/>
+		<Resource Language="mt-MT"/>
+		<Resource Language="nb-NO"/>
+		<Resource Language="ne-NP"/>
+		<Resource Language="nl-NL"/>
+		<Resource Language="nn-NO"/>
+		<Resource Language="nso-ZA"/>
+		<Resource Language="or-IN"/>
+		<Resource Language="pa-Arab-PK"/>
+		<Resource Language="pa-IN"/>
+		<Resource Language="pl-PL"/>
+		<Resource Language="prs-AF"/>
+		<Resource Language="pt-BR"/>
+		<Resource Language="pt-PT"/>
+		<Resource Language="quc-Latn-gt"/>
+		<Resource Language="quz-PE"/>
+		<Resource Language="ro-RO"/>
+		<Resource Language="ru-RU"/>
+		<Resource Language="rw-RW"/>
+		<Resource Language="sd-Arab-PK"/>
+		<Resource Language="si-LK"/>
+		<Resource Language="sk-SK"/>
+		<Resource Language="sl-SI"/>
+		<Resource Language="sq-AL"/>
+		<Resource Language="sr-Cyrl-BA"/>
+		<Resource Language="sr-Cyrl-RS"/>
+		<Resource Language="sr-Latn-RS"/>
+		<Resource Language="sv-SE"/>
+		<Resource Language="sw-KE"/>
+		<Resource Language="ta-IN"/>
+		<Resource Language="te-IN"/>
+		<Resource Language="tg-Cyrl-TJ"/>
+		<Resource Language="th-TH"/>
+		<Resource Language="ti-ET"/>
+		<Resource Language="tk-TM"/>
+		<Resource Language="tn-ZA"/>
+		<Resource Language="tr-TR"/>
+		<Resource Language="tt-RU"/>
+		<Resource Language="ug-CN"/>
+		<Resource Language="uk-UA"/>
+		<Resource Language="ur-PK"/>
+		<Resource Language="uz-Latn-UZ"/>
+		<Resource Language="vi-VN"/>
+		<Resource Language="wo-SN"/>
+		<Resource Language="xh-ZA"/>
+		<Resource Language="yo-NG"/>
+		<Resource Language="zh-CN"/>
+		<Resource Language="zh-TW"/>
+		<Resource Language="zu-ZA"/>
+	</Resources>
+	<Applications>
+		<Application Id="PackageMetadata" StartPage="https://www.microsoft.com">
+			<uap:VisualElements DisplayName="WcoscdgPackageMetadata" Square150x150Logo="Assets\Square150x150Logo.png" Square44x44Logo="Assets\Square44x44Logo.png" Description="PackageMetadata" BackgroundColor="transparent" AppListEntry="none">
+			</uap:VisualElements>
+			<Extensions>
+				<uap3:Extension Category="windows.appExtension">
+					<uap3:AppExtension Name="com.microsoft.windows.telemetryid" Id="Id" PublicFolder="public" DisplayName="Id">
+						<uap3:Properties>
+							<TelemetryID>007813ED00000005</TelemetryID>
+							<IsInboxPackage>1</IsInboxPackage>
+						</uap3:Properties>
+					</uap3:AppExtension>
+				</uap3:Extension>
+			</Extensions>
+		</Application>
+		<Application Id="FileExplorer" Executable="FileExplorerHost.exe" EntryPoint="FileExplorerHost.App" uap10:TrustLevel="appContainer" uap10:RuntimeBehavior="windowsApp">
+			<uap:VisualElements DisplayName="ms-resource:FileExplorer/FileExplorerAppName" Square150x150Logo="FileExplorer\Assets\FileExplorerMedTile.png" Square44x44Logo="FileExplorer\Assets\FileExplorerAppList.png" Description="ms-resource:FileExplorer/FileExplorerDescription" BackgroundColor="transparent">
+				<!-- Add this attribute back to the element above to hide the app in the start menu. -->
+				<!-- AppListEntry="none" -->
+				<uap:DefaultTile Wide310x150Logo="FileExplorer\Assets\FileExplorerWideTile.png" Square71x71Logo="FileExplorer\Assets\FileExplorerSmallTile.png" Square310x310Logo="FileExplorer\Assets\FileExplorerLargeTile.png">
+					<uap:ShowNameOnTiles>
+						<uap:ShowOn Tile="square150x150Logo"/>
+						<uap:ShowOn Tile="wide310x150Logo"/>
+						<uap:ShowOn Tile="square310x310Logo"/>
+					</uap:ShowNameOnTiles>
+				</uap:DefaultTile>
+				<uap:SplashScreen Image="FileExplorer\Assets\FileExplorerSplashScreen.png"/>
+			</uap:VisualElements>
+			<Extensions>
+				<!-- VS's manifest validation won't accept an empty Extensions section but it is required for
+        fragment merging, so add a dummy protocol entry -->
+				<uap:Extension Category="windows.protocol">
+					<uap:Protocol Name="ms-fileexplorer">
+						<uap:DisplayName>ms-fileexplorer</uap:DisplayName>
+					</uap:Protocol>
+				</uap:Extension>
+			</Extensions>
+			<!-- TODO [http://osgvsowi/23230157]: Uncomment when finding a workaround to adding WindowsRuntimeAccess="all", given it breaks WACK Test and blocks OSClient build.
+      <uap:ApplicationContentUriRules>
+        <uap:Rule Match="ms-appx-web://microsoft.windows.fileexplorer/FileExplorer/index.html" Type="include" WindowsRuntimeAccess="all" />
+      </uap:ApplicationContentUriRules>
+      -->
+		</Application>
+	</Applications>
+	<Capabilities>
+		<Capability Name="internetClient"/>
+		<rescap:Capability xmlns:rescap="http://schemas.microsoft.com/appx/manifest/foundation/windows10/restrictedcapabilities" Name="broadFileSystemAccess"/>
+		<Capability Name="internetClientServer"/>
+		<rescap:Capability xmlns:rescap="http://schemas.microsoft.com/appx/manifest/foundation/windows10/restrictedcapabilities" Name="runFullTrust"/>
+		<uap4:CustomCapability Name="Microsoft.coreAppActivation_8wekyb3d8bbwe"/>
+		<uap4:CustomCapability Name="Microsoft.deployFullTrustOnHost_8wekyb3d8bbwe"/>
+	</Capabilities>
+	<Extensions>
+		<Extension Category="windows.activatableClass.outOfProcessServer" uap10:TrustLevel="mediumIL" uap10:RuntimeBehavior="windowsApp">
+			<OutOfProcessServer ServerName="Microsoft.FileExplorerDataProviderHost.FileExplorerDataProviderHostServer" xmlns:uap5="http://schemas.microsoft.com/appx/manifest/uap/windows10/5" uap5:IdentityType="activateAsPackage">
+				<Path>FileExplorerDataProviderHost.exe</Path>
+				<Instancing>singleInstance</Instancing>
+				<ActivatableClass ActivatableClassId="FileExplorerDataProviderHost.DataModelProviderHost"/>
+			</OutOfProcessServer>
+		</Extension>
+		<Extension Category="windows.activatableClass.inProcessServer">
+			<InProcessServer>
+				<Path>FileExplorerDataProvider.dll</Path>
+				<ActivatableClass ActivatableClassId="WindowsInternal.FileExplorer.Http.HttpRouterConnection" ThreadingModel="both"/>
+				<ActivatableClass ActivatableClassId="WindowsInternal.FileExplorer.DataModelProviderService" ThreadingModel="both"/>
+			</InProcessServer>
+		</Extension>
+	</Extensions>
+</Package>

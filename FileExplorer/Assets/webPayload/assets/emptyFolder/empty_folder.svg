@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="Layer_1" viewBox="0 0 208 208">
+  <style>
+    .st0{opacity:0.12;fill:url(#SVGID_1_);enable-background:new ;} .st1{fill:#C1C1C1;} .st2{fill:#EAEAE9;}
+  </style>
+  <linearGradient id="SVGID_1_" x1="30.809" x2="101.511" y1="104.064" y2="81.088" gradientUnits="userSpaceOnUse" gradientTransform="rotate(1.14 -12088.407 -1327.615)">
+    <stop offset=".16" stop-color="#FFF"/>
+    <stop offset=".23" stop-color="#F6F6F6"/>
+    <stop offset=".35" stop-color="#DDD"/>
+    <stop offset=".5" stop-color="#B4B4B4"/>
+    <stop offset=".67" stop-color="#7B7B7B"/>
+    <stop offset=".87" stop-color="#333"/>
+    <stop offset="1"/>
+  </linearGradient>
+  <path d="M60.8 137l-61 12.2 54.4 24.5 17.3-4.5z" class="st0"/>
+  <title>
+    Files web
+  </title>
+  <path d="M102.7 69.1l-3.5 8.1-57.6 11.6 12.6 84.9 103.4-23.2-9.1-89.8z" class="st1"/>
+  <path d="M54.2 173.7l17-74.8 49.9-11.4 5.2 7.5 40.1-6.5-8.8 62z" class="st2"/>
+</svg>
