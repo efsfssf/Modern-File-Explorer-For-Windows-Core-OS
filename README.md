@@ -73,6 +73,40 @@ Example answer
 }
 ```
 
+### GET /drives/OneDrive!S-1-5-21-3198801245-3580807-1487484180-1001!Personal%7CB0CE1D74A0C7A4D8!103/items/root
+Example answer
+```JSON
+{
+   "name":"OneDrive",
+   "lastModifiedDateTime":"2023-12-11 12:00:45Z",
+   "createdDateTime":"2023-11-03 13:44:02Z",
+   "lastAccessedDateTime":"2023-12-11 17:37:50Z",
+   "canCopy":true,
+   "canMove":true,
+   "canRename":true,
+   "canDelete":true,
+   "fileSystemInfo":{
+      "systemPath":"C:/Users/Bezzu/OneDrive",
+      "createdDateTime":"2023-11-03 13:44:02Z",
+      "lastAccessedDateTime":"2023-12-11 17:37:50Z",
+      "lastModifiedDateTime":"2023-12-11 12:00:45Z"
+   },
+   "id":"root",
+   "root":{
+      
+   },
+   "type":"Папка с файлами",
+   "parentReference":{
+      "driveId":"OneDrive!S-1-5-21-3198801245-3580807-1487484180-1001!Personal|B0CE1D74A0C7A4D8!103",
+      "id":"",
+      "driveType":"syncRoot"
+   },
+   "folder":{
+      
+   }
+}
+```
+
 ### GET /drives 
 Example answer
 ```JSON
