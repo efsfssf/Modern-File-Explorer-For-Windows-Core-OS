@@ -10,7 +10,13 @@ You can see support for Downloads, Recycle Bin, User Folder sections on the bott
 ### /sync/features
 Example answer
 ```
-idk
+idk ☹️
+```
+
+### /sync/account/instanceids
+Example answer
+```
+idk ☹️
 ```
 
 ### POST /subscriptions
