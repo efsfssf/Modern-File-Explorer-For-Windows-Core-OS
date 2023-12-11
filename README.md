@@ -12,6 +12,34 @@ Example answer
 ```
 idk
 ```
+
+### POST /subscriptions
+Example payload
+```JSON
+{
+   "messageType":"itemChanged",
+   "resource":"http://localhost:9001/me/drive/items/root&orderby=folder,name asc",
+   "resourceData":{
+      "driveId":"me",
+      "itemId":"root",
+      "orderby":"&orderby=folder,name asc"
+   }
+}
+```
+Example answer
+```JSON
+{
+   "id":"CollectionEnumeration_OneDrive!S-1-5-21-3198801245-3580807-1487484180-1001!Personal|B0CE1D74A0C7A4D8!103_OneDrive!S-1-5-21-3198801245-3580807-1487484180-1001!Personal|B0CE1D74A0C7A4D8!103_folder,name asc",
+   "messageType":"itemChanged",
+   "resource":"http://localhost:9001/drives/OneDrive!S-1-5-21-3198801245-3580807-1487484180-1001!Personal|B0CE1D74A0C7A4D8!103/items/OneDrive!S-1-5-21-3198801245-3580807-1487484180-1001!Personal|B0CE1D74A0C7A4D8!103",
+   "resourceData":{
+      "driveId":"OneDrive!S-1-5-21-3198801245-3580807-1487484180-1001!Personal|B0CE1D74A0C7A4D8!103",
+      "itemId":"OneDrive!S-1-5-21-3198801245-3580807-1487484180-1001!Personal|B0CE1D74A0C7A4D8!103",
+      "orderby":"folder,name asc"
+   }
+}
+```
+
 ### /drives 
 Example answer
 ```JSON
