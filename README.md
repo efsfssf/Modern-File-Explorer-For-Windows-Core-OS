@@ -40,6 +40,33 @@ Example answer
 }
 ```
 
+### POST /subscriptions (ПРИ НАЖАТИИ НА КНОПКУ "ЗАГРУЗКИ")
+Example payload
+```JSON
+{
+  "messageType": "itemChanged",
+  "resource": "http://localhost:9001/drives/local/items/4007390500%2C562949953454108&orderby=folder,name asc",
+  "resourceData": {
+    "driveId": "local",
+    "itemId": "4007390500,562949953454108",
+    "orderby": "&orderby=folder,name asc"
+  }
+}
+```
+Example answer
+```JSON
+{
+   "id":"CollectionEnumeration_local_4007390500,562949953454108_folder,name asc",
+   "messageType":"itemChanged",
+   "resource":"http://localhost:9001/drives/local/items/4007390500,562949953454108",
+   "resourceData":{
+      "driveId":"local",
+      "itemId":"4007390500,562949953454108",
+      "orderby":"folder,name asc"
+   }
+}
+```
+
 ### /drives 
 Example answer
 ```JSON
