@@ -13,7 +13,7 @@ Example answer
 idk ☹️
 ```
 
-### /sync/account/instanceids
+### GET /sync/account/instanceids
 Example answer
 ```
 idk ☹️
