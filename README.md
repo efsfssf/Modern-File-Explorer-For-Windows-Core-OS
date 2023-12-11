@@ -1492,7 +1492,7 @@ Example answer
 ]
 ```
 
-# GET http://localhost:9001/drives/local/items/4007390500%2C562949953454108/children?$top=100&$expand=thumbnails&select=*,webDavUrl (ПРИ НАЖАТИИ НА КНОПКУ "ЗАГРУЗКИ")
+### GET /drives/local/items/4007390500%2C562949953454108/children?$top=100&$expand=thumbnails&select=*,webDavUrl (ПРИ НАЖАТИИ НА КНОПКУ "ЗАГРУЗКИ")
 Example answer
 ```JSON
 [
