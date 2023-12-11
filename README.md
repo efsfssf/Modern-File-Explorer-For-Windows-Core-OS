@@ -73,7 +73,7 @@ Example answer
 }
 ```
 
-### /drives 
+### GET /drives 
 Example answer
 ```JSON
 {
