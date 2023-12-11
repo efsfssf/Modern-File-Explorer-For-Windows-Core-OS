@@ -7,6 +7,11 @@ This modification is being developed to support local hard disks, cart support a
 You can see support for Downloads, Recycle Bin, User Folder sections on the bottom left corner
 
 ## API Modern File Explorer
+### /sync/features
+Example answer
+```
+idk
+```
 ### /drives 
 Example answer
 ```JSON
