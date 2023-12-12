@@ -3604,7 +3604,10 @@ Example answer
 
 ### GET /drives/local/items/local
 (Recognizes the parent's Downloads folder. That is, it learns information about the current user's folder to find out its name and output it to the "URL address")
+
 (Explorer calls this folder "local" and the type is "Системная папка" (translation: system folder))
+
+(For some reason the answer is similar to the query /drives/local/items/root)
 Example answer
 ```JSON
 {
