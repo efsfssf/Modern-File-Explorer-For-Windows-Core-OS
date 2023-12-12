@@ -202,13 +202,32 @@ Example answer
 }
 ```
 
-### /drives/OneDrive!S-1-5-21-3198801245-3580807-1487484180-1001!Personal|B0CE1D74A0C7A4D8!103?$select=*,syncStatus,syncMessage,syncErrorMessages
+### GET /drives/OneDrive!S-1-5-21-3198801245-3580807-1487484180-1001!Personal|B0CE1D74A0C7A4D8!103?$select=*,syncStatus,syncMessage,syncErrorMessages
 Example answer
 ```JSON
 {
    "id":"OneDrive!S-1-5-21-3198801245-3580807-1487484180-1001!Personal|B0CE1D74A0C7A4D8!103",
    "name":"OneDrive - Personal",
    "driveType":"syncRoot",
+   "root":{
+      
+   }
+}
+```
+
+### GET /drives/local?$select=*,syncStatus,syncMessage,syncErrorMessages
+Example answer
+```JSON
+{
+   "id":"local",
+   "name":"Local drive",
+   "driveType":"local",
+   "quota":{
+      "total":239335370752,
+      "used":228687040512,
+      "remaining":10648330240,
+      "state":"nearing"
+   },
    "root":{
       
    }
