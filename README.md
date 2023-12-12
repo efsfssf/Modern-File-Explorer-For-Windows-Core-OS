@@ -236,6 +236,7 @@ Example answer
 
 ### GET /me/drive/items/root/children?$top=100&$expand=thumbnails&select=*,webDavUrl
 (I have OneDrive in Russian and the File Explorer server doesn't work with UTF-8)
+(The id was taken from "Subscription")
 Example answer
 ```JSON
 [
@@ -1624,6 +1625,7 @@ Example answer
 ```
 
 ### GET /drives/local/items/4007390500%2C562949953454108/children?$top=100&$expand=thumbnails&select=*,webDavUrl (ПРИ НАЖАТИИ НА КНОПКУ "ЗАГРУЗКИ")
+(The id was taken from "Subscription")
 Example answer
 ```JSON
 [
@@ -3600,3 +3602,36 @@ Example answer
 }
 ```
 
+### GET /drives/local/items/local
+(Recognizes the parent's Downloads folder. That is, it learns information about the current user's folder to find out its name and output it to the "URL address")
+(Explorer calls this folder "local" and the type is "Системная папка" (translation: system folder))
+Example answer
+```JSON
+{
+   "name":"Алексей Орлов",
+   "lastModifiedDateTime":"2023-12-10 18:10:01Z",
+   "createdDateTime":"2023-12-08 06:35:08Z",
+   "lastAccessedDateTime":"2023-12-12 15:04:50Z",
+   "canCopy":true,
+   "canDelete":true,
+   "fileSystemInfo":{
+      "systemPath":"C:/Users/Bezzu",
+      "createdDateTime":"2023-12-08 06:35:08Z",
+      "lastAccessedDateTime":"2023-12-12 15:04:50Z",
+      "lastModifiedDateTime":"2023-12-10 18:10:01Z"
+   },
+   "id":"root",
+   "root":{
+      
+   },
+   "type":"Системная папка",
+   "parentReference":{
+      "driveId":"local",
+      "id":"",
+      "driveType":"local"
+   },
+   "folder":{
+      
+   }
+}
+```
