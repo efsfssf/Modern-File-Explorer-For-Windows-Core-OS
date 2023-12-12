@@ -3565,3 +3565,38 @@ Example answer
    null
 ]
 ```
+
+### GET /drives/local/special/downloads
+Example answer
+```JSON
+{
+   "name":"￐ﾗ￐ﾰ￐ﾳ￑ﾀ￑ﾃ￐ﾷ￐ﾺ￐ﾸ",
+   "lastModifiedDateTime":"2023-12-11 15:28:06Z",
+   "createdDateTime":"2023-11-03 13:36:56Z",
+   "lastAccessedDateTime":"2023-12-12 14:26:00Z",
+   "fileSystemInfo":{
+      "systemPath":"C:/Users/Bezzu/Downloads",
+      "createdDateTime":"2023-11-03 13:36:56Z",
+      "lastAccessedDateTime":"2023-12-12 14:26:00Z",
+      "lastModifiedDateTime":"2023-12-11 15:28:06Z"
+   },
+   "id":"4007390500,562949953454108",
+   "type":"￐ﾟ￐ﾰ￐﾿￐ﾺ￐ﾰ ￑ﾁ ￑ﾄ￐ﾰ￐ﾹ￐ﾻ￐ﾰ￐ﾼ￐ﾸ",
+   "parentReference":{
+      "driveId":"local",
+      "id":"local",
+      "driveType":"local"
+   },
+   "folder":{
+      "view":{
+         "sortBy":"lastModifiedDateTime",
+         "viewType":"default",
+         "sortOrder":"ascending"
+      }
+   },
+   "specialFolderName":{
+      "name":"downloads"
+   }
+}
+```
+
