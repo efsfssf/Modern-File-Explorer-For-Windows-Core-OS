@@ -201,6 +201,20 @@ Example answer
    ]
 }
 ```
+
+### /drives/OneDrive!S-1-5-21-3198801245-3580807-1487484180-1001!Personal|B0CE1D74A0C7A4D8!103?$select=*,syncStatus,syncMessage,syncErrorMessages
+Example answer
+```JSON
+{
+   "id":"OneDrive!S-1-5-21-3198801245-3580807-1487484180-1001!Personal|B0CE1D74A0C7A4D8!103",
+   "name":"OneDrive - Personal",
+   "driveType":"syncRoot",
+   "root":{
+      
+   }
+}
+```
+
 ### GET /me/drive/items/root/children?$top=100&$expand=thumbnails&select=*,webDavUrl
 (I have OneDrive in Russian and the File Explorer server doesn't work with UTF-8)
 Example answer
