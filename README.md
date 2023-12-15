@@ -3640,7 +3640,9 @@ Example answer
 ```
 
 ## WebSocket
+
 # Event: Changing the list of disks (e.g.: connecting a flash drive)
+
 ```JSON
 {
    "messageType":"driveChanged"
@@ -3664,7 +3666,9 @@ If `messageType` = `itemChanged`, there must be a list of value with the `change
 4. Обновление директории (updateDir): Это процесс изменения существующей директории. Это может включать в себя добавление, удаление или перемещение элементов внутри директории, изменение метаданных директории (например, имя директории, дата последнего изменения) и т.д.
 
 # Event: created and updateDir
-This event is triggered only if this directory is open in Explorer
+
+This event will only fire if the directory is open in Explorer, otherwise it will simply be ignored
+
 Example (haven't tested it yet):
 ```JSON
 {
