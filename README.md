@@ -3641,6 +3641,8 @@ Example answer
 
 ## WebSocket
 
+This data was obtained by reverse engineering, I'm not sure if it's all really true
+
 # Event: Changing the list of disks (e.g.: connecting a flash drive)
 
 ```JSON
