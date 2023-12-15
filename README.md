@@ -3640,14 +3640,16 @@ Example answer
 ```
 
 ## WebSocket
-Event: Changing the list of disks (e.g.: connecting a flash drive)
+# Event: Changing the list of disks (e.g.: connecting a flash drive)
 ```JSON
 {
    "messageType":"driveChanged"
 }
 ```
+`messageType` can be: `driveChanged`, `itemChanged`
 
-`messageType` может быть: `created`, `updated`, `deleted`, `deleted`
+If `messageType` = `itemChanged`, there must be a list of value with the `changeType` key
+`changeType` can be: `created`, `updated`, `deleted`, `updateDir`
 
 Справка (может отличаться от данного случая): 
 
@@ -3660,3 +3662,28 @@ Event: Changing the list of disks (e.g.: connecting a flash drive)
 3. Удаление (deleted): Это процесс удаления существующего элемента из системы. После удаления элемент больше не доступен для других операций.
 
 4. Обновление директории (updateDir): Это процесс изменения существующей директории. Это может включать в себя добавление, удаление или перемещение элементов внутри директории, изменение метаданных директории (например, имя директории, дата последнего изменения) и т.д.
+
+# Event: created and updateDir
+This event is triggered only if this directory is open in Explorer
+Example (haven't tested it yet):
+```JSON
+{
+        "messageType":"itemChanged",
+        "value": [
+            {
+                "changeType": "created",
+                "resourceData":{
+                    "driveId":"OneDrive!S-1-5-21-3198801245-3580807-1487484180-1001!Personal|B0CE1D74A0C7A4D8!103",
+                    "itemId":"OneDrive!S-1-5-21-3198801245-3580807-1487484180-1001!Personal|B0CE1D74A0C7A4D8!103"
+                }
+            },
+            {
+                "changeType": "updateDir",
+                "resourceData":{
+                    "driveId":"local",
+                    "itemId":"4007390500,562949953454108"
+                }
+            }
+        ]
+    }
+```
