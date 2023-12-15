@@ -3638,3 +3638,11 @@ Example answer
    }
 }
 ```
+
+## WebSocket
+Event: Changing the list of disks (e.g.: connecting a flash drive)
+```JSON
+{
+   "messageType":"driveChanged"
+}
+```
