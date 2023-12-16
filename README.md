@@ -3684,6 +3684,13 @@ Example (haven't tested it yet):
                 }
             },
             {
+                "changeType": "updated",
+                "resourceData":{
+                    "driveId":"me",
+                    "itemId":"root"
+                }
+            },
+            {
                 "changeType": "updateDir",
                 "resourceData":{
                     "driveId":"local",
