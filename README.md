@@ -3743,11 +3743,11 @@ Example answer
 }
 ```
 
-## WebSocket
+# WebSocket
 
 This data was obtained by reverse engineering, I'm not sure if it's all really true
 
-# Event: Changing the list of disks (e.g.: connecting a flash drive)
+## Event: Changing the list of disks (e.g.: connecting a flash drive)
 
 ```JSON
 {
@@ -3771,7 +3771,7 @@ If `messageType` = `itemChanged`, there must be a list of value with the `change
 
 4. Обновление директории (updateDir): Это процесс изменения существующей директории. Это может включать в себя добавление, удаление или перемещение элементов внутри директории, изменение метаданных директории (например, имя директории, дата последнего изменения) и т.д.
 
-# Event: created and updateDir
+## Event: created and updateDir
 
 This event will only fire if the directory is open in Explorer, otherwise it will simply be ignored
 
@@ -3804,3 +3804,11 @@ Example (haven't tested it yet):
         ]
     }
 ```
+
+# window.clipboardOperations
+This explorer has a non-standard object at the window
+
+Not much is known about it at the moment. Unfortunately, I have not found the code of this function anywhere in the code.
+
+This object is used for the "Copy", "Cut" and "Paste" commands.
+
