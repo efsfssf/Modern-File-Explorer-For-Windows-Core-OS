@@ -3813,11 +3813,11 @@ Not much is known about it at the moment. Unfortunately, I have not found the co
 This object is used for the "Copy", "Cut" and "Paste" commands.
 
 Object Functions:
-*addEventListener
-*addStorageItemsToClipboardAsync
-*getClipboardDataAsync
-*isPasteAvailable
-*onclipboardchanged
-*removeEventListener
-*toString
-*constructorclipboardOperations
+* addEventListener
+* addStorageItemsToClipboardAsync
+* getClipboardDataAsync
+* isPasteAvailable
+* onclipboardchanged
+* removeEventListener
+* toString
+* constructorclipboardOperations
