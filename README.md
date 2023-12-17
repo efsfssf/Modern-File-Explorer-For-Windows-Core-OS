@@ -19,6 +19,110 @@ Example answer
 idk ☹️
 ```
 
+### GET /me/drive/apps?select=*%2Cpromoted&%24expand=actions
+Example answer
+```JSON
+{
+   "value":[
+      {
+         "id":"OneDrive!S-1-5-21-3198801245-3580807-1487484180-1001!Personal|B0CE1D74A0C7A4D8!103",
+         "application":{
+            
+         },
+         "fileHandler":{
+            "version":2
+         },
+         "actions":[
+            {
+               "availableOn":{
+                  "file":{
+                     "extensions":[
+                        ".*"
+                     ]
+                  },
+                  "folder":{
+                     
+                  },
+                  "allowMultiSelect":true
+               },
+               "displayName":"Always keep on this device",
+               "type":"custom",
+               "url":"Pinned"
+            },
+            {
+               "availableOn":{
+                  "file":{
+                     "extensions":[
+                        ".*"
+                     ]
+                  },
+                  "folder":{
+                     
+                  },
+                  "allowMultiSelect":true
+               },
+               "displayName":"Free up space",
+               "type":"custom",
+               "url":"Sparse"
+            }
+         ]
+      }
+   ]
+}
+```
+
+### GET /drive/apps?select=*%2Cpromoted&%24expand=actions
+Example answer
+```JSON
+{
+   "value":[
+      {
+         "id":"local",
+         "application":{
+            
+         },
+         "fileHandler":{
+            "version":2
+         },
+         "actions":[
+            {
+               "availableOn":{
+                  "file":{
+                     "extensions":[
+                        ".*"
+                     ]
+                  },
+                  "folder":{
+                     
+                  },
+                  "allowMultiSelect":true
+               },
+               "displayName":"Always keep on this device",
+               "type":"custom",
+               "url":"Pinned"
+            },
+            {
+               "availableOn":{
+                  "file":{
+                     "extensions":[
+                        ".*"
+                     ]
+                  },
+                  "folder":{
+                     
+                  },
+                  "allowMultiSelect":true
+               },
+               "displayName":"Free up space",
+               "type":"custom",
+               "url":"Sparse"
+            }
+         ]
+      }
+   ]
+}
+```
+
 ### POST /subscriptions
 Example payload
 ```JSON
