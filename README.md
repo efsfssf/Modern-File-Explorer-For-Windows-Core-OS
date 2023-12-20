@@ -3822,7 +3822,8 @@ Object Functions:
 * toString
 * constructorclipboardOperations
 
-###Examples:
+### Examples:
+
 addStorageItemsToClipboardAsync(l, m, d, i)
 ```
 l = "local"
@@ -3830,3 +3831,9 @@ m = ["C:/Users/Bezzu/Downloads/AppxBlockMap.xml"]
 d = []
 i = false
 ```
+getClipboardDataAsync
+```JSON
+{"operation":{}}
+```
+
+
