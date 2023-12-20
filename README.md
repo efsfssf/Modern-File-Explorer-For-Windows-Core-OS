@@ -3821,3 +3821,12 @@ Object Functions:
 * removeEventListener
 * toString
 * constructorclipboardOperations
+
+###Examples:
+addStorageItemsToClipboardAsync(l, m, d, i)
+```
+l = "local"
+m = ["C:/Users/Bezzu/Downloads/AppxBlockMap.xml"]
+d = []
+i = false
+```
