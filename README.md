@@ -3743,6 +3743,9 @@ Example answer
 }
 ```
 
+> [!TIP]
+> In Windows, files and directories have their own identifier. Windows 10X Explorer uses identifiers in decimal notation.
+
 # WebSocket
 
 This data was obtained by reverse engineering, I'm not sure if it's all really true
